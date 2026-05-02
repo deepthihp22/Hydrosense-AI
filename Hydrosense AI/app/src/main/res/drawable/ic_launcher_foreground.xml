@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Water drop icon for the app launcher -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer glow circle -->
+    <path
+        android:fillColor="#1A00E5FF"
+        android:pathData="M54,54m-46,0a46,46 0,1 1,92 0a46,46 0,1 1,-92 0"/>
+
+    <!-- Water drop shape -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M54,20 C54,20 30,48 30,62 C30,76.4 40.7,88 54,88 C67.3,88 78,76.4 78,62 C78,48 54,20 54,20 Z"/>
+
+    <!-- Inner highlight -->
+    <path
+        android:fillColor="#4DFFFFFF"
+        android:pathData="M46,50 C44,55 43,60 44,65 C45,68 47,70 49,71 C47,66 46,58 48,52 Z"/>
+</vector>
